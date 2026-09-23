@@ -1,0 +1,4 @@
+python3 feature_selection.py -i input_file -name CATboost
+mv CATboost.csv CATboost_order_$file
+python3 feature_selection.py -i input_file -name XGBoost
+mv XGBoost.csv XGBoost_order_$file

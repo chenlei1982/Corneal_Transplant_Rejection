@@ -1,0 +1,7 @@
+python3 feature_selection.py -i input_file -name Ridge 
+python3 feature_selection.py -i input_file -name AdaBoost
+python3 feature_selection.py -i input_file -name ExtraTrees
+
+mv Ridge.csv Ridge_output_file
+mv AdaBoost.csv AdaBoost_output_file
+mv ExtraTrees.csv ExtraTrees_output_file

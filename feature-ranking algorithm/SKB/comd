@@ -1,0 +1,2 @@
+python3 SelectKBest.py --datapath input_file -k 100
+sed '1d' k_100_input_file > SKB_output_file
