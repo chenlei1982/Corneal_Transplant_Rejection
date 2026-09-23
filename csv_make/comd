@@ -1,0 +1,1 @@
+python exportDimsCSV.py -d dataset_file -i feature_order_file -b start -e end -s step
