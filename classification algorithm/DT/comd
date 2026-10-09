@@ -1,3 +1,0 @@
-foreach file (input_file)
-python sk-dt-smote-kfold-run.py -k 10 --datapath $file > rates_10-fold_DT_SMOTE_$file 
-end
